@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywna strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Moja interaktywna strona</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Licznik</h2>
+            <p id="counter-display">0</p>
+            
+
+            <!-- TODO: dodaj przycisk zwiększający licznik -->
+            <button onclick="addPoint()">Dodaj jednego lajka pod postem z biednymi pieskami.</button>
+
+        </div>
+        <div class="card">
+            <h2>Losowanie</h2>
+            <p id="random-display">Kliknij i sprawdź!</p>
+
+
+            <!-- TODO: dodaj przycisk uruchamiający losowanie -->
+            <button onclick="drawItem()">losu losu losu losu</button>
+
+
+        </div>
+
+        <div class="card">
+            <h2>Widget</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.0287742663317!2d21.15242097477408!3d51.401267665982886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47185f00528f9717%3A0xc4f8da4f740b389!2sTendur%20Kebap!5e0!3m2!1spl!2spl!4v1795262358883!5m2!1spl!2spl" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+            <!-- TODO: osadź zewnętrzny widget za pomocą iframe -->
+        </div>
+
+
+        <div class="card">
+            <h2><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">Wideo</a></h2>
+
+           <iframe width="250" height="200" src="https://www.youtube.com/embed/Slgk0DlDsQ8?si=XUgFWReQTyBydgGN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <!-- TODO: osadź zewnętrzny widget za pomocą iframe -->
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
